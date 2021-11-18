@@ -101,3 +101,8 @@ h2{
   #btn-back-to-top:hover{
       cursor: pointer;
   }
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
