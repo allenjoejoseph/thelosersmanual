@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 19px;
+}
+nav #logo{
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 15px;
+    padding-top: 20px;
+    color: #F6F7F8;
+}
+nav #logo #ap{
+    color: #FF3366
+}
+nav #logo span{
+    color:#FF3366
+}
+nav{
+    height: 80px;
+    background-color: #011627;
+}
+
+.what{
+    margin-left: 110px;
+    margin-right: 440px;
+    margin-bottom: 80px;
+    display: inline-block;
+    color: rgb(85, 85, 85);
+    
+}
+.what #begin{
+    margin-top: 10px;
+}
+
+.what #be {
+    margin-top: 20px;
+}
+
+.bar img{
+    width: 400px;
+    margin-left: -65px;
+    margin-top: -250px;
+    margin-bottom: -250px;
+}
+
+.what #bit img{
+    height: 350px;
+    
+    margin-bottom: 30px;
+    margin-left: -2px;
+}
+
+.what #want{
+    margin-top: 60px;
+}
+
+.what .img-phone img{
+    display: block;
+    height: 500px;
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+h2{
+    color: #FF3366;
+}
+
+.what .img img{
+    height: 300px;
+    margin-left: 150px;
+}
+
+.what #small{
+    font-size: 14px;
+}
+#btn-back-to-top {
+    background-color: #FF3366;
+    color: #F6F7F8;
+    font-weight: 800;
+    border-radius: 10px;
+    width: 120px;
+    height: 60px;
+    border: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    padding: 5px;
+  }
+
+  #btn-back-to-top:hover{
+      cursor: pointer;
+  }
